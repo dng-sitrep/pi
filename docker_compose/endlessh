@@ -1,0 +1,20 @@
+---
+version: "2.1"
+services:
+  endlessh:
+    image: lscr.io/linuxserver/endlessh:latest
+    container_name: endlessh
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/New_York
+      - MSDELAY=10000 #optional
+      - MAXLINES=32 #optional
+      - MAXCLIENTS=4096 #optional
+      - LOGFILE=true #optional
+      - BINDFAMILY= #optional
+    volumes:
+      - /srv/configs/endlessh:/config #optional
+    ports:
+      - 22:2222
+    restart: unless-stopped
