@@ -11,6 +11,11 @@ https://www.youtube.com/channel/UC5TQlAEdo_dlGHCL9XynLKg
 website:
 commeing soon
 
+ways to support:
+	privacy.com
+https://privacy.com/join/QP8TP
+
+
 Donations:
 
 BTC:
