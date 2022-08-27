@@ -93,7 +93,6 @@ sudo ufw allow 8580
 sudo ufw allow 5443
 
 # limited ports
-sudo ufw limit 4200
 
 # ssh
 sudo ufw limit 2244
