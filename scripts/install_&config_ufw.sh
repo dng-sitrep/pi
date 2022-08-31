@@ -91,6 +91,8 @@ sudo ufw allow 7203
 sudo ufw allow 4040
 sudo ufw allow 8580
 sudo ufw allow 5443
+sudo ufw allow 5080
+sudo ufw allew 3300
 
 # limited ports
 
