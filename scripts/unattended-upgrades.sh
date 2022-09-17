@@ -2,7 +2,7 @@
 
 sudo apt-get update 
 
-sudo apt-get install unattended-upgrades
+sudo apt-get install unattended-upgrades -y
 
 sudo dpkg-reconfigure --priority=low unattended-upgrades
 
