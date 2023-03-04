@@ -98,7 +98,7 @@ sudo ufw allew 3300
 
 # ssh
 sudo ufw limit 2244
-sudo ufe limit 42069
+sudo ufw limit 42069
 
 # denided ports
 
